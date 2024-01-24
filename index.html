@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./icons8-games-50.png">
+    <title>Wisely Gamer Games</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,600&display=swap" rel="stylesheet">
+  </head>
+  <body class="container">
+    <header>
+        <nav>
+        <img class="img-logo" src="./icons8-games-50.png" alt="logo" width="100px" height="100px">
+        <h1 id="heading1"> Games Shop&nbsp; </h1>
+        <p id="para1"> We Provide Games Redeem Codes for XBOX, PS4-PS5 and PCs.</p>
+        </nav>  
+    </header>
+        <br>
+      <div class="search-bar">
+      <input type="text"  id="search-input" onkeyup="filterGames()" placeholder="Search gamepass & games..." />
+      <a href="#">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+    </div>
+
+    <div id="game-list"></div>
+
+    <script src="./script.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Wisely Gamer Games. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
